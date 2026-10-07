@@ -1,0 +1,7 @@
+components:
+  - name: web
+    runtime: node
+    target: app-service
+    path: src/web
+    app-test: web-test
+    app-prod: web
